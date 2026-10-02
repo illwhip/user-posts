@@ -1,5 +1,5 @@
 const id = localStorage.getItem("id")
-  const postListEl = document.querySelector(" .post-list")
+const postListEl = document.querySelector(" .post-list")
 
 function onSearchChange(event) {
   const id = event.target.value
